@@ -1,0 +1,77 @@
+$color : #ffb600;
+// header menu
+.header{
+	
+	.navbar{
+		padding: 20px 50px;
+		.collapse{
+			ul{
+				width: 100%;
+				
+				li{
+					margin-left: 30px;
+					color: #999999;
+					font-size: 18px;
+					i{
+						color: $color;
+						border: solid 1px $color;
+						border-radius: 50%;
+						padding: 5px 9px;
+					}
+					i:nth-child(2){
+						padding: 5px 5px;
+					}
+
+					i:nth-child(3){
+						padding: 5px 3px;
+					}
+					i:nth-child(4){
+						padding: 5px 6px;
+					}
+					i:hover{
+						background-color: $color;
+						color: #fff0cc;
+					}
+				}
+				li:first-child{
+					// margin-left: 100px;
+				}
+				li.icon-menu{
+					padding-top: 8px;
+
+				}
+				li.form-login{
+					background-image: url("../images/Rectangle 4.png");
+					background-repeat: no-repeat;
+					background-size: cover;
+					width: 150px;
+					height: 115px;
+					text-align: center;
+					color: #ffffff;
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+				// .form-login{
+				// 	position: relative;
+				// }
+				// .form-login:after{
+				// 	content: '';
+				// 	background-image: url("../images/Rectangle 4.png");
+				// 	width: 120px;
+				// 	height: 100px;
+				// 	position: absolute;
+				// 	top: 0;
+				// 	right: 0;
+
+				// }
+				li:hover a{
+					color:$color;
+					border-bottom: solid 2px $color;
+					padding-bottom: 2px;
+				}
+			}
+		}
+	}
+}
+// end header menu
